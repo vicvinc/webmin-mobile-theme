@@ -44,25 +44,34 @@
   }
 
   var $mainvisual = $('.mainVisual,.commonLoader'),
-      $visualScroll = $('.commonLoader');
+    $visualScroll = $('.commonLoader');
+
   function mainvisualHide() {
     var hm = new Hammer($visualScroll[0]),
-        hmFlag = 'down',
-        panPos = 0,
-        mainHideJudge = false;
-    hm.get('pan').set({ direction: Hammer.DIRECTION_ALL, threshold: 10 });
+      hmFlag = 'down',
+      panPos = 0,
+      mainHideJudge = false;
+    hm.get('pan').set({
+      direction: Hammer.DIRECTION_ALL,
+      threshold: 10
+    });
     hm.on('panstart panmove panup pandown panend', function (ev) {
       if (mainHideJudge) return;
       switch (ev.type) {
         case 'panstart':
           panPos += ev.deltaY;
-          $mainvisual.css({ top: panPos + 'px' });
+          $mainvisual.css({
+            top: panPos + 'px'
+          });
           break;
         case 'panmove':
           var panmovePos = panPos + ev.deltaY;
           panmovePos = panmovePos < -ride.windowH ? -ride.windowH : panmovePos > 0 ? 0 : panmovePos;
           var op = 1 + panmovePos / ride.windowH;
-          $mainvisual.css({ top: panmovePos + 'px', opacity: op });
+          $mainvisual.css({
+            top: panmovePos + 'px',
+            opacity: op
+          });
           break;
         case 'panup':
           hmFlag = 'up';
@@ -73,45 +82,67 @@
         case 'panend':
           var movePos = hmFlag == 'up' ? -ride.windowH : 0;
           if (hmFlag == 'up') {
-            TweenLite.to($mainvisual, 0.3, { top: movePos, alpha: 0, ease: Power2.easeOut, onComplete: function onComplete() {
+            TweenLite.to($mainvisual, 0.3, {
+              top: movePos,
+              alpha: 0,
+              ease: Power2.easeOut,
+              onComplete: function onComplete() {
                 $mainvisual.hide();
                 mainHideJudge = true;
-              } });
+              }
+            });
           } else {
-            TweenLite.to($mainvisual, 0.3, { top: movePos, alpha: 1, ease: Power2.easeOut });
+            TweenLite.to($mainvisual, 0.3, {
+              top: movePos,
+              alpha: 1,
+              ease: Power2.easeOut
+            });
           }
           break;
       }
     });
     $('.mainVisual_scroll a').on('click', function () {
       $mainvisual.css('transition', 'none');
-      TweenLite.to($mainvisual, 0.5, { top: -50, alpha: 0, ease: Power2.easeOut, onComplete: function onComplete() {
+      TweenLite.to($mainvisual, 0.5, {
+        top: -50,
+        alpha: 0,
+        ease: Power2.easeOut,
+        onComplete: function onComplete() {
           $mainvisual.hide();
           mainHideJudge = true;
-        } });
+        }
+      });
       return false;
     });
   }
 
   var $postScroll = $('.worksPost_list');
+
   function postSlide() {
     var postHm = new Hammer($postScroll[0]),
-        panmovePos = 0,
-        panPos = 0,
-        postScrollSize,
-        onePer,
-        per,
-        directFlag = 'up',
-        activePer,
-        acInfo,
-        acNum = 0,
-        sc,
-        touchFlag = true;
-    TweenLite.set($postScroll.find('.postNode').find('.nodeImg a'), { 'padding-bottom': '20%' });
+      panmovePos = 0,
+      panPos = 0,
+      postScrollSize,
+      onePer,
+      per,
+      directFlag = 'up',
+      activePer,
+      acInfo,
+      acNum = 0,
+      sc,
+      touchFlag = true;
+    TweenLite.set($postScroll.find('.postNode').find('.nodeImg a'), {
+      'padding-bottom': '20%'
+    });
     $postScroll.find('.postNode').eq(0).find('.nodeImg a').css('padding-bottom', '100%');
     $postScroll.find('.postNode').eq(0).addClass('active');
-    postHm.get('pan').set({ direction: Hammer.DIRECTION_ALL, threshold: 0 });
-    postHm.get('tap').set({ prevent_default: false });
+    postHm.get('pan').set({
+      direction: Hammer.DIRECTION_ALL,
+      threshold: 0
+    });
+    postHm.get('tap').set({
+      prevent_default: false
+    });
     postHm.on('panstart panmove panup pandown panend tap', function (ev) {
       switch (ev.type) {
         case 'panstart':
@@ -197,12 +228,27 @@
         }
       });
     });
-    function slideEnd() {
-      TweenLite.to(window, 0.3, { scrollTo: { y: sc }, ease: Power4.easeOut });
 
-      TweenLite.to($postScroll.find('.postNode:lt(' + acNum + ')').find('.nodeImg a'), 0.5, { 'padding-bottom': '20%', ease: Power2.easeOut });
-      TweenLite.to($postScroll.find('.postNode:eq(' + acNum + ')').find('.nodeImg a'), 0.5, { 'padding-bottom': '100%', ease: Power2.easeOut });
-      TweenLite.to($postScroll.find('.postNode:gt(' + acNum + ')').find('.nodeImg a'), 0.5, { 'padding-bottom': '20%', ease: Power2.easeOut });
+    function slideEnd() {
+      TweenLite.to(window, 0.3, {
+        scrollTo: {
+          y: sc
+        },
+        ease: Power4.easeOut
+      });
+
+      TweenLite.to($postScroll.find('.postNode:lt(' + acNum + ')').find('.nodeImg a'), 0.5, {
+        'padding-bottom': '20%',
+        ease: Power2.easeOut
+      });
+      TweenLite.to($postScroll.find('.postNode:eq(' + acNum + ')').find('.nodeImg a'), 0.5, {
+        'padding-bottom': '100%',
+        ease: Power2.easeOut
+      });
+      TweenLite.to($postScroll.find('.postNode:gt(' + acNum + ')').find('.nodeImg a'), 0.5, {
+        'padding-bottom': '20%',
+        ease: Power2.easeOut
+      });
 
       $postScroll.find('.postNode').removeClass('active');
       $postScroll.find('.postNode').find('.nodeCaption').css({
@@ -228,6 +274,7 @@
   }
 
   var windowW, windowH, slideImgH;
+
   function picResize(target, xSize, ySize) {
     var imgW, imgH, windowW, windowH;
     var _this = this;

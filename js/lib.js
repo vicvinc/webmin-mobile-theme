@@ -949,7 +949,6 @@ window.Modernizr = function (a, b, c) {
     document[a.hidden] ? (a.paused = !0, a.autoPlayClear()) : a.options.autoplay === !0 && (a.paused = !1, a.autoPlay())
   }, b.prototype.initADA = function () {
     var b = this;
-    console.log(b.$slideTrack)
     b.$slides.add(b.$slideTrack.find(".slick-cloned")).attr({
       "aria-hidden": "true",
       tabindex: "-1"

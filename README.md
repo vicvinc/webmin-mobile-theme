@@ -1,2 +1,2 @@
-## webmin offical site
+## webmin site
 

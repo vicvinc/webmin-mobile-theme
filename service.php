@@ -11,11 +11,9 @@
 <body data-page="service" class="fixed">
   <?php get_template_part( 'template/static/service.svg'); ?>
   <?php get_template_part( 'template/partial/header'); ?>
-  
   <canvas id="bg" width="100%" height="100%"></canvas>
   <div class="wrapper">
     <?php get_template_part( 'template/partial/breadList'); ?>
-    
     <div class="mainVisual">
       <div class="mainVisual_wrap">
         <div class="mainVisual_inner">
@@ -425,6 +423,7 @@
           </p>
         </div>
       </div>
+      
       <div class="projectBlock projectBlock-1">
         <div class="projectBlock_visual">
           <img src="<?php echo $template_dir;?>/img/s/project1-visual.jpg" alt="">

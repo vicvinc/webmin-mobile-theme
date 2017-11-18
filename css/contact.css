@@ -648,7 +648,7 @@ i {
   width: 8px;
   height: 9px;
   margin: auto 0;
-  background-image: url(../img/common/i_arrow_right_gray.png);
+  background-image: url(../img/common/i_arrow_right_grey.png);
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
 }
@@ -1469,7 +1469,7 @@ body.fixed .header_snsList {
   width: 8px;
   height: 9px;
   margin: auto 0;
-  background-image: url(../img/common/i_arrow_right_gray.png);
+  background-image: url(../img/common/i_arrow_right_grey.png);
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
 }

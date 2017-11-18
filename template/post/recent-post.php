@@ -1,4 +1,4 @@
-<?php query_posts( array(
+<?php query_posts(array(
    'category_name' => 'article',
    'posts_per_page' => 3,
 )); ?>
