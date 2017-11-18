@@ -5,8 +5,11 @@ add_theme_support( 'post-thumbnails' );
  * Enqueue scripts and styles.
  */
 function _scripts() {
-	wp_enqueue_style('mainstyle', get_template_directory_uri() . '/css/style.css');
-	wp_enqueue_script( '_dev', get_template_directory_uri() . '/js/airbnb.js', array('jquery', 'underscore'), '20170523',	true);
+	// wp_enqueue_style('mainstyle', get_template_directory_uri() . '/css/top.css');
+	// wp_enqueue_script( '_dev', get_template_directory_uri() . '/js/jquery.min.js', '', '',	true);
+	// wp_enqueue_script( 'script', get_template_directory_uri() . '/js/lib.js', array ( 'jquery' ), 1.1, true);
+	// wp_enqueue_script( 'script', get_template_directory_uri() . '/js/common.js', array ( 'jquery' ), 1.1, true);
+	// wp_enqueue_script( 'script', get_template_directory_uri() . '/js/top.js', array ( 'jquery' ), 1.1, true);
 }
 add_action( 'wp_enqueue_scripts', '_scripts' );
 
