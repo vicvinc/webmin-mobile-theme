@@ -9,7 +9,7 @@
 </head>
 
 <body data-page="service" class="fixed">
-  <?php get_template_part( 'template/static/service.svg'); ?>
+  <?php get_template_part( 'template/static/spinner.svg'); ?>
   <?php get_template_part( 'template/partial/header'); ?>
   <canvas id="bg" width="100%" height="100%"></canvas>
   <div class="wrapper">
@@ -58,7 +58,7 @@
             </svg>
           </div>
           <p class="mainVisual_lead">
-            RIDE MEDIA & DESIGNは3つの事業体が有機的に繋がりながら活動しています
+            RIDE MEDIA & DESIGN
           </p>
         </div>
       </div>
@@ -173,7 +173,6 @@
           </div>
         </div>
       </div>
-
       <div class="divisionBlock divisionBlock-2" id="media">
         <div class="divisionBlock_top">
           <ul class="currentNav">
@@ -423,7 +422,6 @@
           </p>
         </div>
       </div>
-      
       <div class="projectBlock projectBlock-1">
         <div class="projectBlock_visual">
           <img src="<?php echo $template_dir;?>/img/s/project1-visual.jpg" alt="">
@@ -435,7 +433,6 @@
           </p>
         </div>
       </div>
-
       <div class="projectBlock projectBlock-2">
         <div class="projectBlock_visual">
           <img src="<?php echo $template_dir;?>/img/s/project2-visual.jpg" alt="">
@@ -452,7 +449,6 @@
           </ul>
         </div>
       </div>
-
       <div class="projectBlock projectBlock-3">
         <div class="projectBlock_visual">
           <img src="<?php echo $template_dir;?>/img/s/project3-visual.jpg" alt="">
@@ -464,7 +460,6 @@
           </p>
         </div>
       </div>
-
       <div class="projectBlock projectBlock-4">
         <div class="projectBlock_visual">
           <img src="<?php echo $template_dir;?>/img/s/project4-visual.jpg" alt="">
@@ -476,7 +471,6 @@
           </p>
         </div>
       </div>
-
       <div class="projectBlock projectBlock-5">
         <div class="projectBlock_visual">
           <img src="<?php echo $template_dir;?>/img/s/project5-visual.jpg" alt="">

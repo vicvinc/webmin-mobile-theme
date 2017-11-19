@@ -5,12 +5,11 @@
     <link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>/css/single.css">
 </head>
 <?php
-	get_header();
 	while (have_posts()):
 	the_post();
 ?>
 <body data-page="news" class="secondLoad" data-gr-c-s-loaded="true">
-    <?php get_template_part( 'template/static/single.svg'); ?>
+    <?php get_template_part( 'template/static/spinner.svg'); ?>
     <?php get_template_part( 'template/partial/header'); ?>
   <div class="wrapper">
     <?php get_template_part( 'template/partial/breadList'); ?>
@@ -22,7 +21,6 @@
     <script src="<?php echo $template_dir; ?>/js/single.js"></script>
   </div>
 </body>
-
 </html>
 <?php
     endwhile;

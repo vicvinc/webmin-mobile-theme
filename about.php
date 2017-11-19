@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>/css/about.css">
 </head>
 <body data-page="about" class="loading">
-  <?php get_template_part( 'template/static/about.svg');?>
+  <?php get_template_part( 'template/static/spinner.svg');?>
   <?php get_template_part( 'template/partial/header'); ?>
   <div class="wrapper">
     <section id="section1">

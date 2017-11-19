@@ -7,7 +7,7 @@
 
 <body data-page="top" data-page-color="" class="loading fixed">
     <?php get_template_part( 'template/partial/mainVisual'); ?>
-    <?php get_template_part( 'template/static/index.svg'); ?>
+    <?php get_template_part( 'template/static/spinner.svg'); ?>
     <div class="commonLoader">
         <a href="/">
             <i class="commonLoader_inner">

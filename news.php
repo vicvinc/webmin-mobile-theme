@@ -8,19 +8,15 @@
   <link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>/css/archive.css">
 </head>
 <body data-page="newsPage" class="fixed">
-  <?php get_template_part( 'template/static/news.svg'); ?>
+  <?php get_template_part( 'template/static/spinner.svg'); ?>
   <?php get_template_part( 'template/partial/header'); ?>
-
   <div class="wrapper">
     <?php get_template_part( 'template/partial/breadList'); ?>
     <div class="wrapper_inner">
       <div class="main">
         <div class="mainBlock itemList">
-        
           <p class="itemList_title">Category Selected</p>
-
           <?php get_template_part( 'template/partial/category-toggle'); ?>
-
           <ul class="itemList_block style2">
             <li news class="postNode">
               <div class="nodeImg">
@@ -40,7 +36,6 @@
               </div>
             </li>
           </ul>
-
           <div class="pageInfo">
             <div class="listPager">
               <div class="listPager_inner">
@@ -54,11 +49,8 @@
         </div>
       </div>
     </div>
-
     <?php get_template_part( 'template/partial/footer'); ?>
     <script src="<?php echo $template_dir; ?>/js/archive.js"></script>
   </div>
-
 </body>
-
 </html>

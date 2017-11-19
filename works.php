@@ -9,7 +9,7 @@
 </head>
 
 <body data-page="worksPage" class="fixed">
-  <?php get_template_part( 'template/static/work.svg'); ?>
+  <?php get_template_part( 'template/static/spinner.svg'); ?>
   <?php get_template_part( 'template/partial/header'); ?>
   <div class="wrapper">
     <?php get_template_part( 'template/partial/breadList'); ?>
@@ -100,7 +100,6 @@
             <div class="worksSlider_control_next"></div>
           </div>
         </div>
-
       </div>
       <div class="worksSlider_thumbnails">
         <div class="worksSlider_thumbnails_nodes active">
@@ -132,7 +131,6 @@
               </li>
             </ul>
           </div>
-
           <ul class="itemList_block style2">
             <li works class="postNode " data-cat="works">
               <div class="nodeImg">
@@ -156,7 +154,6 @@
               </div>
             </li>
           </ul>
-
           <div class="pageInfo">
             <div class="listPager">
               <div class="listPager_inner">
