@@ -26,7 +26,7 @@
           </h1>
           <p class="mainVisual_subTitle">Business of RIDE is made up of three division</p>
           <div class="mainVisual_nav">
-            <img src="<?php echo $template_dir;?>/img/s/main-nav.png" alt="">
+            <img src="<?php echo $template_dir;?>/img/service/main-nav.png" alt="">
             <svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 612.1 530.1" enable-background="new 0 0 612.1 530.1" xml:space="preserve" class="svgObject">
               <a href="#creative" class="anchorLink">
@@ -94,7 +94,7 @@
           </p>
         </div>
         <div class="divisionBlock_visual">
-          <img src="<?php echo $template_dir;?>/img/s/division1-visual.jpg" alt="">
+          <img src="<?php echo $template_dir;?>/img/service/division1-visual.jpg" alt="">
         </div>
         <h3 class="divisionBlock_jpTitle">クリエイティブ事業本部</h3>
         <p class="divisionBlock_jpText">
@@ -147,26 +147,26 @@
                 <ul class="divisionBlock_gridList">
                   <li class="divisionBlock_gridItem">
                     <p class="divisionBlock_gridImg">
-                      <img src="<?php echo $template_dir;?>/img/s/division1-portfolio1.jpg" alt="JACK PURCELL　80周年特設WEBサイト">
+                      <img src="<?php echo $template_dir;?>/img/service/division1-portfolio1.jpg" alt="JACK PURCELL　80周年特設WEBサイト">
                     </p>
                     <p class="divisionBlock_gridTitle">JACK PURCELL　80周年特設WEBサイト</p>
                   </li>
                   <li class="divisionBlock_gridItem">
                     <p class="divisionBlock_gridImg">
-                      <img src="<?php echo $template_dir;?>/img/s/division1-portfolio2.jpg" alt="SNOOPY  日本公式WEBサイト">
+                      <img src="<?php echo $template_dir;?>/img/service/division1-portfolio2.jpg" alt="SNOOPY  日本公式WEBサイト">
                     </p>
                     <p class="divisionBlock_gridTitle">SNOOPY 日本公式WEBサイト</p>
                   </li>
                   <li class="divisionBlock_gridItem">
                     <p class="divisionBlock_gridImg">
-                      <img src="<?php echo $template_dir;?>/img/s/division1-portfolio3.jpg" alt="Champion　日本公式WEBサイト">
+                      <img src="<?php echo $template_dir;?>/img/service/division1-portfolio3.jpg" alt="Champion　日本公式WEBサイト">
                     </p>
                     <p class="divisionBlock_gridTitle">Champion　日本公式WEBサイト</p>
                   </li>
                 </ul>
                 <a href="/works/ride_works_category/creative/" class="button">Works More View</a>
                 <p class="divisionBlock_titleVisual">
-                  <img src="<?php echo $template_dir;?>/img/s/division1-title.png" alt="DIVISION:01 CREATIVE">
+                  <img src="<?php echo $template_dir;?>/img/service/division1-title.png" alt="DIVISION:01 CREATIVE">
                 </p>
               </div>
             </div>
@@ -206,7 +206,7 @@
           </p>
         </div>
         <div class="divisionBlock_visual">
-          <img src="<?php echo $template_dir;?>/img/s/division2-visual.jpg" alt="">
+          <img src="<?php echo $template_dir;?>/img/service/division2-visual.jpg" alt="">
         </div>
         <h3 class="divisionBlock_jpTitle">メディアコンテンツ事業本部</h3>
         <p class="divisionBlock_jpText">
@@ -261,26 +261,26 @@
                 <ul class="divisionBlock_gridList">
                   <li class="divisionBlock_gridItem">
                     <p class="divisionBlock_gridImg">
-                      <img src="<?php echo $template_dir;?>/img/s/division2-portfolio1.jpg" alt="JACK PURCELL　80周年特設WEBサイト">
+                      <img src="<?php echo $template_dir;?>/img/service/division2-portfolio1.jpg" alt="JACK PURCELL　80周年特設WEBサイト">
                     </p>
                     <p class="divisionBlock_gridTitle">WEBマガジン「アマノ食堂」</p>
                   </li>
                   <li class="divisionBlock_gridItem">
                     <p class="divisionBlock_gridImg">
-                      <img src="<?php echo $template_dir;?>/img/s/division2-portfolio2.jpg" alt="SNOOPY  日本公式WEBサイト">
+                      <img src="<?php echo $template_dir;?>/img/service/division2-portfolio2.jpg" alt="SNOOPY  日本公式WEBサイト">
                     </p>
                     <p class="divisionBlock_gridTitle">雑誌 「別冊 GO OUT magazine」</p>
                   </li>
                   <li class="divisionBlock_gridItem">
                     <p class="divisionBlock_gridImg">
-                      <img src="<?php echo $template_dir;?>/img/s/division2-portfolio3.jpg" alt="Champion　日本公式WEBサイト">
+                      <img src="<?php echo $template_dir;?>/img/service/division2-portfolio3.jpg" alt="Champion　日本公式WEBサイト">
                     </p>
                     <p class="divisionBlock_gridTitle">西川産業 公式facebook 運営サポート</p>
                   </li>
                 </ul>
                 <a href="/works/ride_works_category/media_content/" class="button">Works More View</a>
                 <p class="divisionBlock_titleVisual">
-                  <img src="<?php echo $template_dir;?>/img/s/division2-title.png" alt="DIVISION:02 MEDIA CONTENT">
+                  <img src="<?php echo $template_dir;?>/img/service/division2-title.png" alt="DIVISION:02 MEDIA CONTENT">
                 </p>
               </div>
             </div>
@@ -321,7 +321,7 @@
           </p>
         </div>
         <div class="divisionBlock_visual">
-          <img src="<?php echo $template_dir;?>/img/s/division3-visual.jpg" alt="">
+          <img src="<?php echo $template_dir;?>/img/service/division3-visual.jpg" alt="">
         </div>
         <h3 class="divisionBlock_jpTitle">ライフスタイル事業本部</h3>
         <p class="divisionBlock_jpText">
@@ -380,26 +380,26 @@
                 <ul class="divisionBlock_gridList">
                   <li class="divisionBlock_gridItem">
                     <p class="divisionBlock_gridImg">
-                      <img src="<?php echo $template_dir;?>/img/s/division3-portfolio1.jpg" alt="JACK PURCELL　80周年特設WEBサイト">
+                      <img src="<?php echo $template_dir;?>/img/service/division3-portfolio1.jpg" alt="JACK PURCELL　80周年特設WEBサイト">
                     </p>
                     <p class="divisionBlock_gridTitle">箱庭</p>
                   </li>
                   <li class="divisionBlock_gridItem">
                     <p class="divisionBlock_gridImg">
-                      <img src="<?php echo $template_dir;?>/img/s/division3-portfolio2.jpg" alt="SNOOPY  日本公式WEBサイト">
+                      <img src="<?php echo $template_dir;?>/img/service/division3-portfolio2.jpg" alt="SNOOPY  日本公式WEBサイト">
                     </p>
                     <p class="divisionBlock_gridTitle">LIFE MAKERS</p>
                   </li>
                   <li class="divisionBlock_gridItem">
                     <p class="divisionBlock_gridImg">
-                      <img src="<?php echo $template_dir;?>/img/s/division3-portfolio3.jpg" alt="Champion　日本公式WEBサイト">
+                      <img src="<?php echo $template_dir;?>/img/service/division3-portfolio3.jpg" alt="Champion　日本公式WEBサイト">
                     </p>
                     <p class="divisionBlock_gridTitle">ABOUT LIFE COFFEE BREWERS</p>
                   </li>
                 </ul>
                 <a href="/works/ride_works_category/life_style/" class="button">Works More View</a>
                 <p class="divisionBlock_titleVisual">
-                  <img src="<?php echo $template_dir;?>/img/s/division3-title.png" alt="DIVISION:03 LIFE STYLE">
+                  <img src="<?php echo $template_dir;?>/img/service/division3-title.png" alt="DIVISION:03 LIFE STYLE">
                 </p>
               </div>
             </div>
@@ -424,7 +424,7 @@
       </div>
       <div class="projectBlock projectBlock-1">
         <div class="projectBlock_visual">
-          <img src="<?php echo $template_dir;?>/img/s/project1-visual.jpg" alt="">
+          <img src="<?php echo $template_dir;?>/img/service/project1-visual.jpg" alt="">
         </div>
         <div class="projectBlock_detail">
           <p class="projectBlock_detail_text">
@@ -435,7 +435,7 @@
       </div>
       <div class="projectBlock projectBlock-2">
         <div class="projectBlock_visual">
-          <img src="<?php echo $template_dir;?>/img/s/project2-visual.jpg" alt="">
+          <img src="<?php echo $template_dir;?>/img/service/project2-visual.jpg" alt="">
         </div>
         <div class="projectBlock_detail">
           <p class="projectBlock_detail_text">
@@ -451,7 +451,7 @@
       </div>
       <div class="projectBlock projectBlock-3">
         <div class="projectBlock_visual">
-          <img src="<?php echo $template_dir;?>/img/s/project3-visual.jpg" alt="">
+          <img src="<?php echo $template_dir;?>/img/service/project3-visual.jpg" alt="">
         </div>
         <div class="projectBlock_detail">
           <p class="projectBlock_detail_text">
@@ -462,7 +462,7 @@
       </div>
       <div class="projectBlock projectBlock-4">
         <div class="projectBlock_visual">
-          <img src="<?php echo $template_dir;?>/img/s/project4-visual.jpg" alt="">
+          <img src="<?php echo $template_dir;?>/img/service/project4-visual.jpg" alt="">
         </div>
         <div class="projectBlock_detail">
           <p class="projectBlock_detail_text">
@@ -473,7 +473,7 @@
       </div>
       <div class="projectBlock projectBlock-5">
         <div class="projectBlock_visual">
-          <img src="<?php echo $template_dir;?>/img/s/project5-visual.jpg" alt="">
+          <img src="<?php echo $template_dir;?>/img/service/project5-visual.jpg" alt="">
         </div>
         <div class="projectBlock_detail">
           <p class="projectBlock_detail_text">

@@ -2268,7 +2268,7 @@ body.fixed .header_snsList {
   border: 2px solid #000;
 }
 .divisionBlock_bottom .button:after {
-  background-image: url(../img/service/arrow-right-blk.png);
+  /* background-image: url(../img/service/arrow-right-blk.png); */
 }
 
 .divisionBlock_bottom_inner {
