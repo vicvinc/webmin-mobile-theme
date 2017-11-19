@@ -6,9 +6,7 @@ ride.$window = $(window), ride.windowW = 0, ride.windowH = 0, ride.loadJudge = '
 
 (function (common) {
 
-  // コンストラクタ  =================================================================
   common.init = function () {
-    sessionStorageEvent();
     setBrowser();
     $('.commonLoader')[0] && loaderFadeout();
     setSize();
@@ -20,30 +18,9 @@ ride.$window = $(window), ride.windowW = 0, ride.windowH = 0, ride.loadJudge = '
     }
   };
 
-  /*
-   *   border アニメーション
-   */
   common.titleEvent = function () {
     titleAnimationEvent();
   };
-
-  /*
-   *   初回ロードかの判別
-   */
-  function sessionStorageEvent() {
-    if (window.sessionStorage) {
-      var str = window.sessionStorage.getItem("load_key");
-      if (str == 'second') {
-        $('body').addClass('secondLoad');
-      } else {
-        try {
-          window.sessionStorage.setItem("load_key", 'second');
-        } catch (err) {
-          console.log(err);
-        }
-      }
-    }
-  }
 
   function loaderFadeout() {
     var $img = $('img');
@@ -58,18 +35,19 @@ ride.$window = $(window), ride.windowW = 0, ride.windowH = 0, ride.loadJudge = '
     var loadingSvg = Snap().attr({
       viewBox: [0, 0, canvasW, canvasH]
     });
+
     var svgAccept = document.querySelector(".commonLoader_inner");
     loadingSvg.prependTo(svgAccept);
 
     loadingSvg.path().attr({
       fill: 'none',
-      stroke: '#eee',
+      stroke: '#1b1b1b',
       d: 'M70,3.5h67.5v134H3.5V3.5H70'
     });
 
     var circle = loadingSvg.circle(canvasW / 2, 3.5, 3).attr({
       id: "circlePath",
-      fill: "#222"
+      fill: "#1b1b1b"
     });
 
     var points;
@@ -86,6 +64,7 @@ ride.$window = $(window), ride.windowW = 0, ride.windowH = 0, ride.loadJudge = '
     var rideLogo = loadingSvg.g().attr({
       id: 'rideLogo'
     });
+
     var rideLogo1 = rideLogo.g().attr({
       id: 'rideLogo1'
     });
@@ -184,34 +163,21 @@ ride.$window = $(window), ride.windowW = 0, ride.windowH = 0, ride.loadJudge = '
       } else {
         myImg.src = $(this).attr('src');
       }
+
       myImg.onload = function () {
         count++;
         if (count == total) {
-
-          if ($('body').is('.secondLoad')) {
-            Snap.animate(0, fLastPoint, setPosition, 0, mina.easeOut, function () {
-              $('.commonLoader').addClass('bgOut');
-              var slideColor = $('.mainVisual_item').eq(0).attr('data-page-color');
-              $('body').attr('data-page-color', slideColor);
-            });
-          } else {
-            Snap.animate(0, fLastPoint, setPosition, 1500, mina.easeOut, function () {
-              $('.commonLoader').addClass('bgOut');
-              var slideColor = $('.mainVisual_item').eq(0).attr('data-page-color');
-              $('body').attr('data-page-color', slideColor);
-            });
-          }
+          Snap.animate(0, fLastPoint, setPosition, 3000, mina.easeinout, function () {
+            $('.commonLoader').addClass('bgOut');
+            var slideColor = $('.mainVisual_item').eq(0).attr('data-page-color');
+            $('body').attr('data-page-color', slideColor);
+          })
         }
-      };
-    });
-    resizeEvent();
+      }
+    })
+    resizeEvent()
   }
 
-  // functions  ====================================================================
-  /*
-   *  UA判別
-   *
-   */
   function setBrowser() {
     var judgeLotate, _this;
     _this = window;
@@ -251,13 +217,9 @@ ride.$window = $(window), ride.windowW = 0, ride.windowH = 0, ride.loadJudge = '
         $('html').addClass('ltAd4-4');
       }
     }
-  };
+  }
 
-  /*
-   *  要素サイズ初期化
-   *   ・window幅100%に拡大したメインビジュアルの高さを基準にサイドの柱の高さを指定
-   *   ・メインビジュアルの再生が終わるタイミングでコンテンツが見えるように、セクションにディレイ分のマージンを指定
-   */
+
   function setSize() {
     ride.windowW = ride.$window.width();
     ride.windowH = ride.$window.height();
@@ -278,7 +240,7 @@ ride.$window = $(window), ride.windowW = 0, ride.windowH = 0, ride.loadJudge = '
         ride.$body.removeClass('fixed');
       }
     });
-  };
+  }
 
   var $projectBox = $('.footer_projectInner'),
     $projectBox_title = $('.footer_projectTitle');
@@ -489,9 +451,8 @@ ride.$window = $(window), ride.windowW = 0, ride.windowH = 0, ride.loadJudge = '
         }
       });
     }
-  };
+  }
 
-  // アンカーリンク <-
   function scrollToTargetTop() {
     $(document).on('click', '.anchorLink', function (e) {
       var targetLink = $(this).attr('href');
