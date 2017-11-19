@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>/css/archive.css">
 </head>
 <body data-page="newsPage" class="fixed">
-  <?php get_template_part( 'template/static/spinner'); ?>
+  <?php get_template_part( 'template/static/sprites'); ?>
   <?php get_template_part( 'template/partial/header'); ?>
   <div class="wrapper">
     <?php get_template_part( 'template/partial/breadList'); ?>

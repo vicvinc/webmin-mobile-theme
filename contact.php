@@ -9,7 +9,7 @@
 </head>
 
 <body data-page="contact_input" class="loading">
-  <?php get_template_part( 'template/static/spinner');?>
+  <?php get_template_part( 'template/static/sprites');?>
   <?php get_template_part( 'template/partial/header'); ?>
   <div class="wrapper">
     <?php get_template_part( 'template/partial/breadList'); ?>

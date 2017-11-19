@@ -6,7 +6,7 @@
 </head>
 
 <body data-page="news" data-gr-c-s-loaded="true">
-    <?php get_template_part( 'template/static/spinner'); ?>
+    <?php get_template_part( 'template/static/sprites'); ?>
     <?php get_template_part( 'template/partial/header'); ?>
   <div class="wrapper">
     <?php get_template_part( 'template/partial/breadList'); ?>

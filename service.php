@@ -9,7 +9,7 @@
 </head>
 
 <body data-page="service" class="fixed">
-  <?php get_template_part( 'template/static/spinner'); ?>
+  <?php get_template_part( 'template/static/sprites'); ?>
   <?php get_template_part( 'template/partial/header'); ?>
   <canvas id="bg" width="100%" height="100%"></canvas>
   <div class="wrapper">
