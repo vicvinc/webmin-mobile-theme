@@ -10,7 +10,7 @@
         <?php if( have_posts() ): while ( have_posts() ) : the_post(); ?>
             <li class="postNode" data-cat="news">
                 <div class="nodeImg">
-                <a href="<?php get_permalink(); ?>" title="Launching <?php the_title(); ?>" rel="bookmark">
+                <a href="<?php echo get_permalink(); ?>" title="Launching <?php the_title(); ?>" rel="bookmark">
                     <?php the_title( '<h2>', '</h2>' ); ?>
                     <h3><?php the_excerpt(); ?></h3>
                     <img 

@@ -5,8 +5,6 @@
     <link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>/css/top.css">
 </head>
 
-<!-- <body <?php body_class(); ?>> -->
-
 <body data-page="top" data-page-color="" class="loading fixed">
     <?php get_template_part( 'template/partial/mainVisual'); ?>
     <?php get_template_part( 'template/static/index.svg'); ?>

@@ -16,52 +16,10 @@
     <div class="wrapper_inner">
       <div class="main">
         <div class="mainBlock itemList">
+        
           <p class="itemList_title">Category Selected</p>
-          <div class="categoryList toggleBox">
-            <p class="categoryList_title toggleButton">
-              All news
-              <span class="toggleIcon">
-                <i></i>
-                <i></i>
-              </span>
-            </p>
-            <ul class="toggleTarget">
-              <li class="categoryList_node active">
-                <a href="/news/">
-                  All news </a>
-              </li>
-              <li class="categoryList_node">
-                <a href="/news/ride_news_category/pickup/">
-                  Pickup Topics </a>
-              </li>
 
-              <li class="categoryList_node">
-                <a href="/news/ride_news_category/event/">
-                  Event </a>
-              </li>
-
-              <li class="categoryList_node">
-                <a href="/news/ride_news_category/press/">
-                  Press </a>
-              </li>
-
-              <li class="categoryList_node">
-                <a href="/news/ride_news_category/recruit/">
-                  Recruit </a>
-              </li>
-
-              <li class="categoryList_node active">
-                <a href="/news/ride_news_category/people/">
-                  People </a>
-              </li>
-
-              <li class="categoryList_node">
-                <a href="/news/ride_news_category/other/">
-                  Other </a>
-              </li>
-
-            </ul>
-          </div>
+          <?php get_template_part( 'template/partial/category-toggle'); ?>
 
           <ul class="itemList_block style2">
             <li news class="postNode">
@@ -82,6 +40,7 @@
               </div>
             </li>
           </ul>
+
           <div class="pageInfo">
             <div class="listPager">
               <div class="listPager_inner">
