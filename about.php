@@ -8,34 +8,10 @@
   <link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>/css/about.css">
 </head>
 <body data-page="about" class="loading">
-  <?php get_template_part( 'template/static/spinner.svg');?>
+  <?php get_template_part( 'template/static/spinner');?>
   <?php get_template_part( 'template/partial/header'); ?>
   <div class="wrapper">
-    <section id="section1">
-      <div class="section_visual"></div>
-      <div class="sectionWrapper">
-        <h2 class="section_ttl borderAnimation">
-          <i class="borderAnimation_before"></i>
-          <i class="borderAnimation_after"></i>PHILOSOPHY</h2>
-        <div class="section_sub">Company message</div>
-        <p class="section_lead">個が輝ける
-          <br>クリエイティブ・クラス
-          <br>カンパニー</p>
-        <p class="section_txt">
-          “個性的なメンバーの能力を最大限に活かせる会社”、 “メンバーひとり一人が主役となって活躍できる会社” というのが、RIDE MEDIA&DESIGN設立の根幹にあります。大きな組織が主体だった時代が終わり、“個”、“個性”が主体となる時代が到来しています。今までより自由なワークスタイルが可能になり、それを支えるプラットフォームやソリューションも整ってきました。ただ、仕事に対するスタイルや考え方が変わったということが、私たちにとって「本質的な価値」や、幸せではありません。“個”や“個性”を輝かせるということは、ひとり一人が真の意味で「自分を生きている」かどうか、ということにフォーカスすることだと考えます。既存の価値観をすべて鵜呑みにするのではなく、確固たる自分のアイデンティティに基づき、意思決定を行う。それを仕事や生活に結びつけることで、世の中に大きな価値を見出していく。そのような生き方こそ、真の意味で“個”や“個性”を尊重することではないでしょうか。
-        </p>
-        <p class="section_lead">世界中のすべての人々の
-          <br>“個が輝く”社会を目指して</p>
-        <p class="section_txt">
-          一方、“個”だけでは成し得ないことも社会には多く存在します。仲間のアイデンティティと同調させ、掛け合わせていくことで、より大きな価値を世の中に提供することができるのです。世の中に大きな貢献ができれば、個の幸福度も上がりますので、社会にとって非常に良い循環となっていきます。RIDE
-          MEDIA&DESIGNメンバーは、自分のアイデンティティを大切にし、それを仲間とともに増幅させ、より大きな価値を社会にもたらすべく精力的に活動を行ってまいります。また、経営陣はそのような環境作りに重きを置くことをお約束します。
-          <br>
-          <br>RIDE MEDIA & DESIGN 株式会社
-          <br>代表取締役CEO
-          <a href="javascript:void(0)" class="popupButton" onclick="window.open(/profile/, 'window_name', 'width=650,height=800,scrollbars=yes'); return false;">国府田 淳</a>
-        </p>
-      </div>
-    </section>
+    <?php get_template_part( 'template/partial/about-section'); ?>
     <section id="section2">
       <div class="section_visual"></div>
       <div class="sectionWrapper">

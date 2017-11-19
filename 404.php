@@ -9,7 +9,7 @@
 </head>
 
 <body>
-	<?php get_template_part( 'template/static/news.svg'); ?>
+	<?php get_template_part( 'template/static/spinner'); ?>
 	<?php get_template_part( 'template/partial/header'); ?>
 	<div class="wrapper">
 		<div class="wrapper_inner">

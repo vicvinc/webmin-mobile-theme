@@ -2,13 +2,10 @@
 
 (function (about) {
 
-  // コンストラクタ  =================================================================
   about.init = function () {
     aboutEvent();
     var _titleEvent = new ride.common.titleEvent();
   };
-
-  // functions  ====================================================================
 
   function aboutEvent() {
     var $body = $('body');

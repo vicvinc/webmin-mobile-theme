@@ -71,10 +71,9 @@
                     </svg>
                 </a>
             </div>
-            <p class="footer_introCap">WEBとメディアで暮らしを彩る。</p>
+            <p class="footer_introCap">WEB MIN DESIGN</p>
             <p class="footer_introDivision">Creative / Media Content / Life Style</p>
         </div>
-
         <div class="footer_copyright">
             <i>©</i>
             <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 220 16" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px"
@@ -82,7 +81,6 @@
                 <use xlink:href="#logo"></use>
             </svg>
         </div>
-
         <div class="toTop">
             <a href="#" class="anchorLink">
                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 60 30" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px"
@@ -98,36 +96,15 @@
                 <img src="<?php echo $template_dir;?>/img/s/nav_project_wht.png" alt="RIDE's PROJECT">
             </p>
             <div class="footer_projectMove">
-
                 <ul>
                     <li>
                         <a href="http://www.haconiwa-mag.com/" target="_blank">
                             <img src="<?php echo $template_dir;?>/img/s/header_p1.jpg" alt="箱庭">
                         </a>
                     </li>
-                    <li>
-                        <a href="http://thewave.tokyo/" target="_blank">
-                            <img src="<?php echo $template_dir;?>/img/s/header_p4.jpg" alt="The Wave">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.about-life.coffee/" target="_blank">
-                            <img src="<?php echo $template_dir;?>/img/s/header_p2.jpg" alt="About Life Coffee Brewers">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://lifemakers.jp/" target="_blank">
-                            <img src="<?php echo $template_dir;?>/img/s/header_p3.jpg" alt="Life Makers">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://schiive.com/" target="_blank">
-                            <img src="<?php echo $template_dir;?>/img/s/header_p5.jpg" alt="スチーブ">
-                        </a>
-                    </li>
                 </ul>
                 <p class="header_projectList">
-                    <a href="/service/#project">プロジェクト詳細はこちら</a>
+                    <a href="/service/#project"></a>
                 </p>
             </div>
         </div>

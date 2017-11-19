@@ -134,7 +134,7 @@ i {
 
 .wrapper {
   width: 100%;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   position: relative;
   overflow: hidden;
   background-color: #fff;
@@ -197,7 +197,7 @@ i {
   font-weight: bold;
   letter-spacing: 0.15em;
   background-color: #999;
-  background-image: url(../img/s/i_arrow_right.png);
+  background-image: url(../img/common/i_arrow_right.png);
   background-repeat: no-repeat;
   background-position: 92% center;
   color: #fff;
@@ -336,11 +336,11 @@ i {
 }
 
 .slick-next:before {
-  background-image: url(../img/s/i_arrow_right.png);
+  background-image: url(../img/common/i_arrow_right.png);
 }
 
 [dir='rtl'] .slick-next:before {
-  background-image: url(../img/s/i_arrow_right.png);
+  background-image: url(../img/common/i_arrow_right.png);
 }
 
 /* TOP POST LIST STYLE */
@@ -467,7 +467,7 @@ i {
 }
 .listPager_inner .next:after {
   right: 7px;
-  background-image: url(../img/s/i_arrow_right_black.png);
+  background-image: url(../img/common/i_arrow_right_black.png);
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
 }
@@ -502,7 +502,7 @@ i {
 }
 .artivleBlock_node a.button-next:after {
   right: 7px;
-  background-image: url(../img/s/i_arrow_right_black.png);
+  background-image: url(../img/common/i_arrow_right_black.png);
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
 }
@@ -632,7 +632,7 @@ i {
   width: 8px;
   height: 9px;
   margin: auto 0;
-  background-image: url(../img/s/i_arrow_right_grey.png);
+  background-image: url(../img/common/i_arrow_right_grey.png);
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
 }
@@ -822,7 +822,7 @@ i {
 
 .worksSlider_control_next {
   right: 0;
-  background-image: url(../img/s/i_arrow_right_black.png);
+  background-image: url(../img/common/i_arrow_right_black.png);
 }
 
 .worksSlider_thumbnails {
@@ -957,7 +957,7 @@ i {
 }
 
 .footer_top {
-  background-image: url(../img/s/footer_bg.jpg);
+  background-image: url(../img/common/footer_bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -1309,7 +1309,7 @@ body.navOpen .header_menuInner svg {
   font-size: 18px;
   line-height: 50px;
   padding-left: 18px;
-  background-image: url(../img/s/i_arrow_right_green.png);
+  background-image: url(../img/common/i_arrow_right_green.png);
   background-repeat: no-repeat;
   -webkit-background-size: 10px auto;
           background-size: 10px auto;
@@ -1414,7 +1414,7 @@ body.fixed .header_snsList {
   right: 10px;
   width: 10px;
   height: 100%;
-  background-image: url(../img/s/i_arrow_right.png);
+  background-image: url(../img/common/i_arrow_right.png);
   background-repeat: no-repeat;
   -webkit-background-size: 10px auto;
           background-size: 10px auto;
@@ -1453,7 +1453,7 @@ body.fixed .header_snsList {
   width: 8px;
   height: 9px;
   margin: auto 0;
-  background-image: url(../img/s/i_arrow_right_grey.png);
+  background-image: url(../img/common/i_arrow_right_grey.png);
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
 }

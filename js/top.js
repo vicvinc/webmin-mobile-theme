@@ -2,7 +2,6 @@
 
 (function (top) {
 
-  // コンストラクタ  =================================================================
   top.init = function () {
     imgLoad();
     setEvents();
@@ -12,8 +11,6 @@
     mainslideAct();
     scrollEvent();
   };
-
-  // functions  ====================================================================
 
   var postScrollH;
 

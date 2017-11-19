@@ -1,6 +1,6 @@
 <?php
-    $prev_wrap = '<a href="%link" class="button-prev"></a>';
-    $next_wrap = '<a href="%link" class="button-next"></a>';
+    while (have_posts()):
+        the_post();
 ?>
 <div class="articleBlock articleBlock-news">
     <div class="articleBlock_info">
@@ -43,3 +43,5 @@
         </li>
     </ul>
 </div>
+<?php
+    endwhile;

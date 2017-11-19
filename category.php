@@ -9,7 +9,7 @@
 </head>
 
 <body data-page="newsPage" class="secondLoad" data-gr-c-s-loaded="true">
-    <?php get_template_part( 'template/static/spinner.svg'); ?>
+    <?php get_template_part( 'template/static/spinner'); ?>
     <?php get_template_part( 'template/partial/header'); ?>
   <div class="wrapper">
     <?php get_template_part( 'template/partial/breadList'); ?>
