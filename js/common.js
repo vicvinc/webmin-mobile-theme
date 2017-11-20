@@ -241,7 +241,7 @@ ride.$window = $(window), ride.windowW = 0, ride.windowH = 0, ride.loadJudge = '
       if ($('body').is('.navOpen')) {
         $('body').removeClass('navOpen');
         TweenLite.to($headerNav, 0.3, {
-          top: 0,
+          // top: 0,
           alpha: 0,
           ease: Power2.easeOut,
           onComplete: function onComplete() {
@@ -266,9 +266,9 @@ ride.$window = $(window), ride.windowW = 0, ride.windowH = 0, ride.loadJudge = '
           onComplete: function onComplete() {
             $('.wrapper').css({
               position: 'fixed',
-              top: -ride.scrollTop
+              // top: -ride.scrollTop
             });
-            backSc = ride.scrollTop;
+            // backSc = ride.scrollTop;
           }
         });
       }
