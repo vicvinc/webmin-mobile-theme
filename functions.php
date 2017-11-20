@@ -79,34 +79,3 @@ add_action('wp_ajax_infinite_load_more', 'infinite_load_more');
 function img_base_url() {
 	return get_template_directory_uri() . '\/img\/';
 }
-
-// search scripts
-$settings = array(
-    'attributesToIndex' => array(
-        'unordered(post_title)',
-        'unordered(content)',
-    ),
-    'customRanking' => array(
-        'desc(is_sticky)',
-        'desc(post_date)',
-    ),
-    'attributeForDistinct'  => 'post_id',
-    'distinct'              => true,
-    'attributesForFaceting' => array(
-        'taxonomy_post_tag',
-        'taxonomy_category',
-        'post_author.display_name',
-    ),
-    'attributesToSnippet' => array(
-        'post_title:30',
-        'content:30',
-    ),
-    'snippetEllipsisText' => '…',
-);
-function custom_posts_index_settings( array $settings ) {
-    $custom_ranking = $settings['customRanking'];
-    array_unshift( $custom_ranking, 'desc(visits_count)' );
-    $settings['customRanking'] = $custom_ranking;
-    return $settings;
-}
-add_filter( 'algolia_posts_index_settings', 'custom_posts_index_settings' );

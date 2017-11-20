@@ -96,10 +96,9 @@
         <div class="divisionBlock_visual">
           <img src="<?php echo $template_dir;?>/img/service/division1-visual.jpg" alt="">
         </div>
-        <h3 class="divisionBlock_jpTitle">クリエイティブ事業本部</h3>
+        <h3 class="divisionBlock_jpTitle">本部</h3>
         <p class="divisionBlock_jpText">
-          高いクリエイティブ力を誇るWEB・スマホの制作、システム構築から、MDを含めた運営までをサポートするEコマース事業、プロダクトやロゴなどのデザインワークまで、WEBからMD、グラフィックまで、総合的なサービスを提供しています。日本ウェブデザイナーズ協会が運営する「JWDA
-          WEB DESIGN AWARD 」での受賞経験や、各種専門メディアでも取り上げられるクリエイティビティとサポート力を是非、体感してください。
+          WEB DESIGN AWARD 
         </p>
         <div class="divisionBlock_detailBox">
           <div class="divisionBlock_detailBox_inner">
@@ -133,11 +132,11 @@
             <p class="section_txt">
               <span class="section_txt-leftCulumn">
                 <strong class="section_txtTitle">Planning＆Direction</strong>
-                お客様が持つ価値と課題を明らかにし、これまでの経験と実績から導き出す、正攻法＋アルファのご提案を心がけています。お客様の考えがあれば期待に応えるべく実現しながら、自分達のクリエイティブ・コンテンツ構成・販売やPR戦略の考えもご説明し、たくさんのコミュニケーションをとりながらプロジェクトローンチに向けて動いていきます。弊社のディレクターは元々クリエイターのため、モノづくりにも精通しており、コミュニケーションを通じてのクイックな判断が可能です。また、必要性を感じればご依頼のスコープ外のことでも弊社ネットワークを駆使してご提案することで、プロジェクト成功の一因を担うべく活動していきます。
+                
               </span>
               <span class="section_txt-rightCulumn">
                 <strong class="section_txtTitle">Creative</strong>
-                様々なジャンルを手掛けておりますが共通して、一つの罫線、一つのアイコン、ホワイトスペースに至るまでピクセル単位でこだわり、重要となるビジュアル選定や撮影まで含めてデザインを創りあげます。よくある構成やシステム先行のワイヤーフレーム型デザイン制作ではなく、通常より時間がかかりますが、複合思考を元にしたデザイン先行型で創ることで他のウェブサイトとは違うデザイン性と効果を生み出します。フレンドリーなインタラクティブや期待を超えるデザインを念頭に、デザイナーとエンジニアは日夜、妥協なく挑戦しています。
+                
               </span>
             </p>
 
@@ -208,10 +207,9 @@
         <div class="divisionBlock_visual">
           <img src="<?php echo $template_dir;?>/img/service/division2-visual.jpg" alt="">
         </div>
-        <h3 class="divisionBlock_jpTitle">メディアコンテンツ事業本部</h3>
+        <h3 class="divisionBlock_jpTitle">本部</h3>
         <p class="divisionBlock_jpText">
-          企業とカスタマーのコミュニケーションをサポートするオウンドメディアの制作や、SNSを使ったさまざまな施策などを行っております。“ブランディング”領域を得意とし、メディアによって企業のイメージUPを図るお手伝いをしています。また、女子クリエイター向けWEBメディア「箱庭」を自社で運営。自らメディアを運営することで
-          <br> リアルなノウハウを蓄積し、クライアント様へ良質な情報シェアを行うべく活動しています。
+          <br> 
         </p>
         <div class="divisionBlock_detailBox">
           <div class="divisionBlock_detailBox_inner">
@@ -247,11 +245,10 @@
             <p class="section_txt">
               <span class="section_txt-leftCulumn">
                 <strong class="section_txtTitle">Problem solving</strong>
-                まずは、徹底したヒアリングをさせて頂き、的確な課題抽出と最適な目標設定をいたします。立ち上げることだけにフォーカスすることなく、中長期のビジョンまでをも明確にしたご提案をさせて頂きます。“手段の目的化” とならず、ゴールである課題解決につながるプランニングをさせて頂きます。制作、運用、分析といった三位一体でのプロジェクト展開が可能です。また、自社メディアの運営をはじめ様々なメディア運営の実績から導かれた有効な情報発信を心がけています。そのため、SNS運用、記事制作、メディア設計とあらゆる場面において結果に裏付けされた対応をいたします。
+                 とならず、ゴールである課題解決につながるプランニングをさせて頂きます。制作、運用、分析といった三位一体でのプロジェクト展開が可能です。また、自社メディアの運営をはじめ様々なメディア運営の実績から導かれた有効な情報発信を心がけています。そのため、SNS運用、記事制作、メディア設計とあらゆる場面において結果に裏付けされた対応をいたします。
               </span>
               <span class="section_txt-rightCulumn">
                 <strong class="section_txtTitle">User’s Insight</strong>
-                様々なジャンル、媒体を手掛けておりますが一貫して一次取材にこだわっています。ひとつひとつのコンテンツをオリジナリティ溢れるものにすべく努力と工夫はどこにも負けないと自負しております。インタビュー取材はもちろんのことロケーションハンティングを伴った撮影などありとあらゆる方法でコンテンツ制作を行います。弊社メンバーがWEBコンテンツ制作だけでなく雑誌編集、動画制作といった様々なクリエィティブを経験しているからこそ実現する制作スキームです。もちろん、課題解決に紐づいたコンテンツ制作を行っているためアプローチ方法としてベストな媒体の起用、表現方法を選択しご提案をさせて頂きます。一辺倒な訴求ではなく常にユーザーのインサイトを汲み取ることを意識したクリエィティブを行っています。
               </span>
             </p>
 
@@ -428,7 +425,7 @@
         </div>
         <div class="projectBlock_detail">
           <p class="projectBlock_detail_text">
-            RIDE MEDIA&DESIGNが運営する女子クリエイター向けWEBメディア。ゆる〜い空気感とクリエイターのお役立ち情報で、各所より高い支持を得ています。
+            WEB MIN DESIGN
             <a href="http://www.haconiwa-mag.com/" target="_blank" class="projectBlock_detail_link">http://www.haconiwa-mag.com/</a>
           </p>
         </div>

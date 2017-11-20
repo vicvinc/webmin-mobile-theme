@@ -47,25 +47,6 @@
                 </span>
               </span>
             </li>
-            <li class="telSection_footerList">
-              <span class="telSection_footerListTitle">本部
-                <br>THE WAVE</span>
-              <span class="telSection_footerListNumberBox">
-                <span class="telSection_footerListNumber-tel">03-6451-0343</span>
-                <span class="telSection_footerListNumber">
-                  <span class="telSection_footerListNumberTitle">FAX</span>03-6451-0354
-                </span>
-              </span>
-            </li>
-            <li class="telSection_footerList">
-              <span class="telSection_footerListTitle">集部</span>
-              <span class="telSection_footerListNumberBox">
-                <span class="telSection_footerListNumber-tel">03-6451-0443</span>
-                <span class="telSection_footerListNumber">
-                  <span class="telSection_footerListNumberTitle">FAX</span>03-6451-0354
-                </span>
-              </span>
-            </li>
           </ul>
         </div>
       </div>

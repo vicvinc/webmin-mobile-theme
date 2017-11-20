@@ -2,7 +2,7 @@
     $template_dir = get_template_directory_uri();
     query_posts(array(
         'category_name' => 'article',
-        'posts_per_page' => 3,
+        'posts_per_page' => 5,
     ));
 ?>
 <section class="worksPost">
