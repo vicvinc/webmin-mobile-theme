@@ -7,8 +7,8 @@
 ?>
     <link rel="stylesheet" type="text/css" href="<?php echo $template_dir; ?>/css/archive.css">
 </head>
-
-<body data-page="newsPage" class="secondLoad" data-gr-c-s-loaded="true">
+<body data-page="newsPage">
+    <?php if ( get_option('permalink_structure') ) { echo 'permalinks enabled'; } ?>
     <?php get_template_part( 'template/static/sprites'); ?>
     <?php get_template_part( 'template/partial/header'); ?>
   <div class="wrapper">
